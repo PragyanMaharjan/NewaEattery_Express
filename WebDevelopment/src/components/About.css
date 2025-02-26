@@ -1,0 +1,21 @@
+.about-container {
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('https://i.pinimg.com/736x/a4/a2/81/a4a2817b484770e3572125f3fd0f51e0.jpg') no-repeat center center;
+    background-size: cover;
+    animation: backgroundAnimation 20s infinite alternate;
+  }
+  
+  @keyframes backgroundAnimation {
+    0% {
+      background-position: center;
+    }
+    50% {
+      background-position: top;
+    }
+    100% {
+      background-position: center;
+    }
+  }
